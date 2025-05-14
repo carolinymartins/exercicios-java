@@ -1,0 +1,53 @@
+1. Faça um programa que, a partir de uma string digitada pelo usuário, imprima:
+a) O número de caracteres da string.
+b) A string com todas suas letras em maiúsculo.
+c) O número de vogais da string.
+d) Se a string digitada começa com “UNO” (ignorando maiúsculas/minúsculas).
+e) Se a string digitada termina com “STE” (ignorando maiúsculas/minúsculas).
+f) O número de dígitos (0 a 9) da string.
+g) Se a string é um palíndromo ou não.
+
+
+2. Implemente um método estático em Java que receba como parâmetro uma String contendo o nome
+de uma pessoa e retorna outra String contendo as iniciais do nome.
+Ex.: José Luiz Ferreira ->  JLF
+João Carlos da Silva -> JCS
+As iniciais são formadas pela primeira letra de cada nome, sendo que todas deverão aparecer em maiúsculas na
+saída do programa. Note que os conectores e, do, da, dos, das, de, di, du não são considerados nomes e,
+portanto, não devem ser considerados para a obtenção das iniciais. As iniciais devem ser impressas em
+maiúsculas, ainda que o nome seja entrado todo em minúsculas.
+
+
+3. Faça um programa que, a partir de um texto digitado pelo usuário, conte o número de caracteres total
+e o número de palavras (palavra é definida por qualquer sequência de caracteres delimitada por
+espaços em branco, virgula ou ponto) e exiba o resultado. Dica: use o método split com expressões
+regulares.
+
+
+4. Faça o método estático LerInt() em Java que recebe como parâmetro um título e uma mensagem. O
+método deve abrir uma caixa de entrada no estilo JOptionPane.showInputDialog(...)  com o título e a
+mensagem recebidos como parâmetro e retornar na forma de um inteiro, o valor digitado pelo
+usuário. Caso o usuário digite um valor inválido a função deve retornar o valor zero. Faça também
+versões dessas funções para a leitura de valores reais.
+Ex:
+int idade=LerInt("Atenção","Digite a sua idade");
+
+
+5. Embaralhar as palavras é um tipo de quebra-cabeças que é popular com crianças. As letras em cada
+palavra são rearranjadas em uma ordem qualquer e a pessoa que está usando o quebra-cabeças tem
+que descobrir qual era a palavra original. Palavras com três e quatro letras são fáceis, mas quanto mais
+letras são adicionadas, o número de combinações possíveis cresce rapidamente, deixando o quebra
+cabeças mais desafiador. Crie um método estático em Java que ao receber uma palavra qualquer como
+parâmetro a retorne de forma embaralhada.
+Ex: embaralhar(“Unoeste”);   deve retornar algo do tipo: enostUe
+
+
+6. Utilizando REGEX desenvolva um método estático com a finalidade de testar se uma string recebida
+como parâmetro pode ser considerada: nome, email, variável, placa ou desconhecido.
+a. [NOME], caso a string seja parecia com o nome completo de uma pessoa
+b. [EMAIL], caso se pareça com um email
+c. [VARIAVEL], para strings que podem ser consideradas como nome válido de variável em Java
+d. [PLACA], se assemelha a uma placa de veículo (formato: AAA-9?99)
+e. [DESCONHECIDO], caso não se assemelha a nenhum dos casos acima
+
+O método deve analisar a string recebida e retornar uma das sugestões acima:

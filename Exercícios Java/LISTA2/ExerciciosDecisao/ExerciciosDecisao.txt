@@ -1,0 +1,57 @@
+1. Escreva um programa em Java que solicite ao usuário uma temperatura em graus Celsius e então
+converta em graus Fahrenheit, Kelvin e graus Rankine. Pesquise as fórmulas.
+
+2. Desenvolva um programa em Java que leia um número inteiro qualquer (use long), calcule e apresente
+a soma de todos os seus dígitos. Exemplo: 12345  a soma dos dígitos é 15. Não use Strings ou vetores
+para a resolução.
+
+
+3. Escreva um programa para ler uma data (dia, mês e um ano como inteiros). Após verificar se a data é
+válida, informar quantos dias ocorreram entre primeiro de janeiro e a data informada. Considere anos
+bissextos. Pesquise como saber se um ano é bissexto e não use arrays na solução.
+
+
+4. Calculadora de áreas: Crie um programa que apresente um menu ao usuário com as seguintes opções:
+a. Calcular a área de um Círculo;
+b. Calcular a área de um Triângulo;
+c. Calcular a área de um Quadrado;
+d. Calcular a área de um Retângulo;
+Faça o programa solicitar os dados importantes das dimensões do objeto, calculando e apresentando a área
+do mesmo. Por Exemplo: A área de um Círculo é [PI*Raio^2]: Seu programa deve solicitar o Raio. Triangulo
+é [(base*altura)/2]: seu programa deve solicitar base e altura.
+
+
+5. Escreva um programa Java que solicite um valor real (double) ao usuário e simule o comportamento de
+um caixa eletrônico, ou seja, calcule qual o menor número possível de notas de 100, 50, 20, 10, 5, 2 e
+moedas de 1 real, 50, 25, 10 , 5 e 1 centavos  em que o valor possa ser decomposto. Seu programa
+deverá exibir uma saída parecida com:
+
+Informe o valor do saque (valor inteiro): 139.27
+O valor do saque pode ser expresso em:
+1 nota(s) de 100
+1 nota(s) de 20
+1 nota(s) de 10
+1 nota(s) de 5
+2 nota(s) de 2
+1 moeda(s) de 25 centavos
+2 moeda(s) de 1 centavos
+
+Atenção: dependendo do valor informado, podemos ter problemas de falta de um centavo no
+resultado, isso é normal visto à precisão dos valores reais. Caso ocorra, pense em alguma alternativa
+para correção.
+
+
+6. Sistema SAC de Amortização.
+Determinados bancos utilizam o sistema SAC para a composição das parcelas de um empréstimo
+monetário. O sistema consiste na cobrança mensal de cada parcela (valor de empréstimo/qtde de
+meses) acrescidas de juros sobre o saldo devedor.
+
+
+PARCELA = VALOR DO EMPRÉSTIMO / QTDE DE MESES
+JUROS = JUROS DO EMPRESTIMO SOBRE O SALDO DEVEDOR
+PRESTAÇÃO = PARCELA + JUROS
+
+Desenvolva um programa em Java que ao ser informado do valor do empréstimo, quantidade de meses e os juros mensais, gere a tabela das prestações mensais.
+Informe  ainda no final o total de juros pago na operação.
+
+Para conseguir o efeito tabulado, pesquise o uso do método format da String.
